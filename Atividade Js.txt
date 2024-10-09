@@ -220,6 +220,91 @@ fruits.splice(
 
 JS Array Sort
 
+1. Use the correct Array method to sort the fruits array alphabetically.
+
+const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.sort()
+
+JS Dates
+
+1.Create a Date object and alert the current date and time.
+const d = new Date();
+alert(d);
+
+2.Use the correct Date method to extract the year (four digits) out of a date object.
+const d = new Date();
+year = d.getFullYear();
+
+3.Use the correct Date method to get the month (0-11) out of a date object.
+
+const d = new Date();
+month = d.getMonth();
+
+4.Use the correct Date method to set the year of a date object to 2020.
+
+const d = new Date();
+d.setFullYear(2020);
+
+JS Math
+
+1. Use the correct Math method to create a random number.
+
+let r = Math.random();
+
+2.Use the correct Math method to return the largest number of 10 and 20.
+
+let x = Math.max(10, 20);
+
+3. Use the correct Math method to round a number to the nearest integer.
+
+let x = Math.round(5.3);
+
+4.Use the correct Math method to get the square root of 9.
+
+let x = Math.sqrt(9);
+
+JS Comparisons
+
+1.Choose the correct comparison operator to alert true, when x is greater than y.
+
+x = 10;
+y = 5;
+alert(x > y);
+
+2.Choose the correct comparison operator to alert true, when x is equal to y.
+
+x = 10;
+y = 10;
+alert(x == y);
+
+3.Choose the correct comparison operator to alert true, when x is NOT equal to y.
+
+x = 10;
+y = 5;
+alert(x != y);
+
+4.Choose the correct conditional (ternary) operator to alert "Too young" if age is less than 18, otherwise alert "Old enough".
+
+var age = n;
+var voteable = (age < 18) ? "Too young" : "Old enough";
+alert(voteable);
+
+JS Conditions
+
+1.Fix the if statement to alert "Hello World" if x is greater than y.
+
+if 
+(x > y){
+alert("Hello World");
+}
+
+2.Fix the if statement to alert "Hello World" if x is greater than y, otherwise alert "Goodbye".
+
+if (x > y) {
+  alert("Hello World");
+} else{
+  alert("Goodbye");
+}
 
 
 
